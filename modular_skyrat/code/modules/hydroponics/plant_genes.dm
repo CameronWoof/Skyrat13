@@ -190,3 +190,13 @@
 	reagents_add = list(/datum/reagent/drug/aphrodisiacplus = 0.2, /datum/reagent/drug/space_drugs = 0.05)
 	genes = list(/datum/plant_gene/trait/plant_type/weed_hardy, /datum/plant_gene/trait/fragile, /datum/plant_gene/trait/foam, /datum/plant_gene/trait/squash, /datum/plant_gene/trait/spore_emission, /datum/plant_gene/trait/slip, /datum/plant_gene/trait/cell_charge, /datum/plant_gene/trait/territorial)
 */
+
+/datum/plant_gene/reagent/polypyr
+	name = "Polypyrylium Oligomers"
+	reagent_id = /datum/reagent/medicine/polypyr
+	rate = 0.15
+
+/datum/plant_gene/reagent/liquidelectricity
+	name = "Liquid Electricity"
+	reagent_id = /datum/reagent/consumable/liquidelectricity
+	rate = 0.1
